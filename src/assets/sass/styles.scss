@@ -3,6 +3,7 @@
  @import "config/colors";
  
  @import "utilities/spacing";
+ @import "utilities/mixin-card";
 
 
  @import "base/fonts";
@@ -10,8 +11,14 @@
  @import "base/typography";
  @import "base/links";
 
-// @import "components/components";
-// @import "components/demo";
+
+ @import "components/_components";
+  @import "components/demo";
+
+
+
+
+
 // @import "pages/index";
 // @import "pages/single-page";
 
