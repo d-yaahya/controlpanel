@@ -4,13 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/html" src="{require('./index.js')}"></script>
-    <title>التجربة الاولى لويب باك</title>
+    <title>الصفحة الرئيسية</title>
     
 </head>
 <body>
-    <div style="font-family: sans-serif;" class="component-container"> 
-        <h1>التجربة3  البدائية لويب باك</h1>
-        <button>زر تجريبي</button>
+    <div class="page-container">
+        <sidebar></sidebar>
+        <div class="main-page">
+            <header class="home-intro">
+                <h2 class="welcome-tag">
+                مرحباً أحمد ,اتمنى أنك تقضي يوما جميلا .  <br> 
+                شاهد آخر ماحدث في متجرك
+                </h2>
+                <div class="c-summary">
+                    <div class="c-summary__data">
+                        <span class="c-summary__value">34</span>
+                        <span class="c-summary__key">طلب</span>
+                    </div>
+                    <div class="c-summary__data">
+                        <span class="c-summary__value">1343</span>
+                        <span class="c-summary__key">زائر</span>
+                    </div>
+                    <div class="c-summary__data">
+                        <span class="c-summary__value">$4324</span>
+                        <span class="c-summary__key">مبيعات</span>
+                    </div>
+                </div>
+            </header>
+            <div class="c-actions">
+            <ul class="c-actions">
+                <li class="c-action">
+                    <span class="c-action__title">10 طلبات تحتاج المعالجة </span>
+                    <a href="" class="c-action__link c-btn">مشاهدة الطلبات</a>
+                </li>
+                <li class="c-action">
+                <span class="c-action__title"> 5 رسائل تحتاج الاجابة </span>
+                    <a href="" class="c-action__link c-btn">مشاهدة الرسائل</a>
+                </li>
+                <li class="c-action">
+                   <span class="c-action__title"> 3 منتجات ضرورية على وشك النفاذ  </span>
+                   <a href="" class="c-action__link c-btn">مشاهدة المنتجات</a>
+                </li>
+            </ul>
+        </div>
+        <card></card>
+        <banner></banner>
+        <chart></chart>
+        <tabs></tabs>
+        <help></help>
+        </div>
     </div>
     
 </body>
